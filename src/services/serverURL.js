@@ -1,2 +1,2 @@
-const SERVER_BASE_URL = "http://localhost:3000"
+const SERVER_BASE_URL = "https://inventory-management-backend-yuoc.onrender.com"
 export default SERVER_BASE_URL
