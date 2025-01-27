@@ -177,7 +177,7 @@ const Home = () => {
                   {searchedProducts?.map((product, index) => (
                     <>
                       <tr key={product._id}>
-                        <th scope="row">{index}</th>
+                        <th scope="row">{index+1}</th>
                         <td
                           className={
                             product.quantity < 10 ? "table-danger" : ""
